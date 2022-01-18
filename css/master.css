@@ -1,0 +1,109 @@
+/* GLOBAL STYLING */
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #9cc2ff;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+}
+
+/* IMAGES */
+
+img {
+    width: 200px;
+    border: solid 1px #000;
+    margin: 20px;
+}
+
+img.left {
+    float: left;
+}
+img.right {
+    float: right;
+}
+
+/* MAIN BODY */
+
+.main-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.main-body a {
+  color: black;
+}
+
+/* NAV MENU */
+
+.main-nav a {
+  margin-left: 5%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+a:hover {
+  color: white;
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  width: 600px;
+  z-index: 10;
+}
+
+.options {
+  display: none;
+}
+
+.hamburger-icon {
+  font-size: 3em;
+  margin-left: 5%;
+}
+
+.hamburger-icon:hover {
+  color: white;
+}
+
+/* RIGHT ARROW */
+
+.right-arrow {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.right-arrow a {
+  font-size: 5em;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.right-arrow a:hover {
+  color: white;
+}
+
+/* LEFT ARROW */
+.left-arrow {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.left-arrow a {
+  font-size: 5em;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.left-arrow a:hover {
+  color: white;
+}
